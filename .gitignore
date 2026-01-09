@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+venv/
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data (keep raw docs out unless required)
+data/raw_data/
+*.pdf
+*.docx
+*.xlsx
+
+# Vector stores / embeddings
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+
+# Logs
+*.log
