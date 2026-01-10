@@ -18,7 +18,7 @@ Here's the basic flow of what happens when you ask a question:
 I fed the system three different document types to work with:
 - A PDF of the famous "Attention Is All You Need" paper and Deepseek-r1
 - A DOCX file containing the EU AI Act
-- An Excel sheet with CPI/inflation data (threw this in as a bonus challenge)
+- An Excel sheet with CPI/inflation data
 
 The text gets cleaned up and split into manageable chunks that the system can actually work with.
 
