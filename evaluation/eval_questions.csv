@@ -1,0 +1,9 @@
+question,expected_behavior,answer_type
+What is the main contribution of the Attention Is All You Need paper?,rag_answer,factual
+Why does the Transformer architecture scale better than RNNs according to the paper?,rag_answer,explanatory
+Explain self-attention as described in the paper,rag_answer,conceptual
+What obligations does the EU AI Act impose on high-risk AI systems?,rag_answer,policy
+Calculate the inflation-adjusted value of 100 euros from 2015 to 2021.,calculation,deterministic
+What are the privacy penalties defined in the US AI Act?,refusal,negative
+Who invented the Transformer architecture?,rag_answer,factual
+What was CPI in March 2008?,calculation,deterministic
