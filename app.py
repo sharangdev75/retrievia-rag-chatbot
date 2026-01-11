@@ -15,7 +15,7 @@ load_dotenv()
 print("=== ENV DEBUG ===")
 print("GROQ_API_KEY:", os.getenv("GROQ_API_KEY"))
 print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
-print("=================")
+
 
 BASE_DIR = Path(__file__).resolve().parent
 sys.path.append(str(BASE_DIR))
