@@ -36,7 +36,7 @@ Cleaning and normalization
 Chunk size: 500 characters
 Chunk overlap: 150 characters
         ↓
-Embedding Generation
+Embedding
   - all-MiniLM-L6-v2 (384 dimensions)
         ↓
 Vector Store
