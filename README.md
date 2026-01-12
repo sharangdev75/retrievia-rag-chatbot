@@ -30,7 +30,8 @@ I built this RAG (Retrieval-Augmented Generation) system to pull relevant info f
 ## Architecture Overview
 
 ```text
-
+Data Ingestion (PDF, DOCX, XLSX)
+        ↓
 Cleaning and normalization
 Chunk size: 500 characters
 Chunk overlap: 150 characters
