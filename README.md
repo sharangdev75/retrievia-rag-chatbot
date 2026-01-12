@@ -58,7 +58,7 @@ Built a Streamlit app to keep things simple, featuring a sidebar to display the 
 
 **FAISS for storage** - It's fast, relatively simple to set up, and works well both locally and in the cloud. 
 
-**MiniLM embeddings** - Good balance between quality and speed. Doesn't require massive compute resources and gives good results.
+**MiniLM embeddings** - 384 Dimensions - A good balance between quality and speed. Doesn't require massive computing power.
 
 **Strict grounding rules** - I'd rather have the system say "I don't know" than make something up. Trust is more important than always having an answer.
 
