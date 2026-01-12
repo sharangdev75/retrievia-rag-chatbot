@@ -29,12 +29,10 @@ I built this RAG (Retrieval-Augmented Generation) system to pull relevant info f
 ---
 ## Architecture Overview
 
-Data Ingestion (PDF, DOCX, XLSX)
-        ↓
-Text Preprocessing & Chunking
-  - Cleaning and normalization
-  - Chunk size: 500 characters
-  - chunk_overlap: 150
+```text
+Cleaning and normalization
+Chunk size: 500 characters
+Chunk overlap: 150 characters
         ↓
 Embedding Generation
   - all-MiniLM-L6-v2 (384 dimensions)
@@ -53,7 +51,6 @@ Web Interface & Deployment
   - Streamlit UI
   - Dockerized and deployed on Azure App Service
   - Evaluation documents stored in Azure Blob Storage
-
 
 
 ## How It Works
