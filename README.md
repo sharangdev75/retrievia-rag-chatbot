@@ -40,7 +40,7 @@ Embedding Generation
   - all-MiniLM-L6-v2 (384 dimensions)
         ↓
 Vector Store
-  - FAISS (cosine similarity, Top-K = 8)
+  - FAISS
         ↓
 Query Processing
   - Query embedding and similarity search
