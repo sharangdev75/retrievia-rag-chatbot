@@ -30,6 +30,7 @@ I built this RAG (Retrieval-Augmented Generation) system to pull relevant info f
 ## Architecture Overview
 
 ```text
+
 Cleaning and normalization
 Chunk size: 500 characters
 Chunk overlap: 150 characters
@@ -51,7 +52,8 @@ Web Interface & Deployment
   - Streamlit UI
   - Dockerized and deployed on Azure App Service
   - Evaluation documents stored in Azure Blob Storage
-
+```
+---
 
 ## How It Works
 
