@@ -66,7 +66,7 @@ Built a Streamlit app to keep things simple, featuring a sidebar to display the 
 
 ---
 
-## Trade-offs I Had to Make
+## Trade-offs
 
 **Being Conservative vs. Being Helpful**
 The system will refuse to answer if it doesn't have good source material. This means sometimes it won't answer questions it theoretically could, but it also means you can trust the answers you do get.
