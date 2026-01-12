@@ -27,6 +27,34 @@ I built this RAG (Retrieval-Augmented Generation) system to pull relevant info f
 - User queries: https://ragresultsweu01.blob.core.windows.net/evaluation-results/User_Queries.xlsx?sp=r&st=2026-01-12T10:02:14Z&se=2026-01-12T18:17:14Z&spr=https&sv=2024-11-04&sr=b&sig=QD5O7DtBxig1ZRMrRCozksUTsrVAQh8rzovv3J1ma9A%3D
 
 ---
+## Architecture Overview
+
+Data Ingestion (PDF, DOCX, XLSX)
+        ↓
+Text Preprocessing & Chunking
+  - Cleaning and normalization
+  - Chunk size: 500 characters
+  - chunk_overlap: 150
+        ↓
+Embedding Generation
+  - all-MiniLM-L6-v2 (384 dimensions)
+        ↓
+Vector Store
+  - FAISS (cosine similarity, Top-K = 8)
+        ↓
+Query Processing
+  - Query embedding and similarity search
+        ↓
+Generation Layer
+  - LangChain + Groq (LLaMA 3.3 70B)
+  - Strict context grounding
+        ↓
+Web Interface & Deployment
+  - Streamlit UI
+  - Dockerized and deployed on Azure App Service
+  - Evaluation documents stored in Azure Blob Storage
+
+
 
 ## How It Works
 
