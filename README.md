@@ -14,11 +14,11 @@ I built this RAG (Retrieval-Augmented Generation) system to pull relevant info f
 ## Evaluation & Testing
 
 ### User Queries
-- **User_Queries.xlsx**  
+- **User_Queries**  
   Holds the list of user queries used for testing the RAG system. 
 
 ### Evaluation Results
-- **Evaluation_results.csv**  
+- **Evaluation_results**  
     Including system responses as well as metrics of evaluation for each query in the test.
 
 **Links to User Queries and Evaluation Results :**
