@@ -8,6 +8,24 @@ I built this RAG (Retrieval-Augmented Generation) system to pull relevant info f
 
 - **Azure App:** https://rag-chatbot-sharang-f9b0d6fhbaa7cxhw.westeurope-01.azurewebsites.net/
 
+
+---
+
+## Evaluation & Testing
+
+### User Queries
+- **User_Queries.xlsx**  
+  Holds the list of user queries used for testing the RAG system. 
+
+### Evaluation Results
+- **Evaluation_results.csv**  
+    Including system responses as well as metrics of evaluation for each query in the test.
+
+**Links to User Queries and Evaluation Results :**
+- Evaluation output (CSV): https://ragresultsweu01.blob.core.windows.net/evaluation-results/Evaluation_results.csv?sp=r&st=2026-01-12T10:02:36Z&se=2026-01-12T18:17:36Z&spr=https&sv=2024-11-04&sr=b&sig=UYtdLl44TJ%2FVsldu1SSiefyQ9%2FrTHb63P%2BTVTeUfg5g%3D
+
+- User queries (XLSX): https://ragresultsweu01.blob.core.windows.net/evaluation-results/User_Queries.xlsx?sp=r&st=2026-01-12T10:02:14Z&se=2026-01-12T18:17:14Z&spr=https&sv=2024-11-04&sr=b&sig=QD5O7DtBxig1ZRMrRCozksUTsrVAQh8rzovv3J1ma9A%3D
+
 ---
 
 ## How It Works
