@@ -94,20 +94,19 @@ I tested with 8 different questions covering various scenarios. Here's what I fo
 ---
 
 
-**Current Limitations:**
+**Limitations:**
 - Retrieval quality depends a lot on how documents are chunked
 - No reranking step to refine what chunks get used
 - Have to rebuild the entire index if you want to add new documents
 
 **If I Had More Time:**
 - Add a reranker to improve precision
-- Build better input cleaning/normalization
 - Maybe experiment with different chunking strategies
 - Add Memory for better context undersatnding 
 
 ---
 
-## Running This Yourself
+## How to Run
 
 ```bash
 pip install -r requirements.txt
