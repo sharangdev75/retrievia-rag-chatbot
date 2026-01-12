@@ -3,9 +3,7 @@ from pathlib import Path
 import time
 import pandas as pd
 
-# -------------------------------------------------
-# Path setup
-# -------------------------------------------------
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(PROJECT_ROOT))
 
@@ -15,9 +13,7 @@ EVAL_FILE = Path(__file__).parent / "eval_questions.csv"
 OUT_FILE = Path(__file__).parent / "eval_results.csv"
 
 
-# -------------------------------------------------
-# Evaluation logic
-# -------------------------------------------------
+
 def evaluate_answer(answer, sources, expected_behavior):
     """
     expected_behavior: 'rag', 'rag_answer', 'calculation', or 'refusal'
@@ -37,9 +33,7 @@ def evaluate_answer(answer, sources, expected_behavior):
     return accuracy, int(grounding_correct)
 
 
-# -------------------------------------------------
-# Run evaluation
-# -------------------------------------------------
+
 def run_eval():
     df = pd.read_csv(EVAL_FILE)
     results = []
